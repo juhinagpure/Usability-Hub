@@ -234,8 +234,8 @@
  }
 
  .examples-area {
-    justify-content: space-between;
-    margin-block: 30px;
+     justify-content: space-between;
+     margin-block: 30px;
  }
 
  .examples-card {
@@ -245,26 +245,22 @@
      background: black;
      background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url('./assets/asset\ 36.jpeg');
      background-size: cover;
-     transition:0.2s ease-out;
-}
- .examples-card:hover{
-    box-shadow:0 0 10px #888;
+     transition: 0.2s ease-out;
  }
+
+ .examples-card:hover {
+     box-shadow: 0 0 10px #888;
+ }
+
  .examples-card:nth-child(3) {
-    background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url('./assets/asset\ 38.jpeg');  
-    background-size: cover;
+     background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url('./assets/asset\ 38.jpeg');
+     background-size: cover;
  }
- .examples-card:nth-child(3):hover{
-    box-shadow:0 0 10px #888;
- }
+
 
  .examples-card:nth-child(4) {
-    background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url('./assets/asset\ 39.jpeg');  
-    background-size: cover;
- }
-
- .examples-card:nth-child(4):hover{
-    box-shadow:0 0 10px #888;
+     background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url('./assets/asset\ 39.jpeg');
+     background-size: cover;
  }
 
  .card-text {
@@ -273,4 +269,7 @@
      left: 20px;
      right: 20px;
      color: white;
+ }
+ .middle-section{
+    color: var(--accent-color-dark);
  }
