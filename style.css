@@ -273,4 +273,9 @@
  /* cta section */
  .cta-section-container{
     flex-direction: column;
+    gap: 30px ;
+    color: white;
+}
+ .cta-section{
+    background-color: #183b54;
  }
