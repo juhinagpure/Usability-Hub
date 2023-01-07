@@ -232,6 +232,9 @@
      flex-direction: column;
      gap: 20px;
  }
+ .examples-area{
+    
+ }
 
  .examples-card {
      width: 23%;
