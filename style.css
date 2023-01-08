@@ -322,3 +322,7 @@
      justify-content: center;
      gap: 30px;
  }
+ /* companies-section */
+ .companies-section .container .small-bold-text .logos{
+     margin-top: 30px;
+ }
