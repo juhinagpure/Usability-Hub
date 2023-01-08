@@ -166,11 +166,11 @@
      text-align: center;
      margin-block: 30px;
      color: var(--primary-text-color);
-     padding-bottom: 20px;
+    margin-bottom: 20px;
  }
 
- .logos{
-    justify-content: space-between;
+ .logos {
+     justify-content: space-between;
  }
 
  .logo {
@@ -207,8 +207,9 @@
      max-width: 30%;
      text-align: center;
  }
- .features-card img{
-    width: 60px;
+
+ .features-card img {
+     width: 60px;
  }
 
  /* big feature section */
@@ -310,12 +311,14 @@
      align-items: flex-start;
      justify-content: space-between;
  }
+
  /* subfooter */
- .subfooter{
-    background-color: #b9cde4;
-    padding: var(--padding-inline-section);
+ .subfooter {
+     background-color: #b9cde4;
+     padding: var(--padding-inline-section);
  }
- .sub-footer-container{
-    justify-content: center;
-    gap: 30px;
+
+ .sub-footer-container {
+     justify-content: center;
+     gap: 30px;
  }
