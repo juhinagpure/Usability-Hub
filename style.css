@@ -166,7 +166,7 @@
      text-align: center;
      margin-block: 30px;
      color: var(--primary-text-color);
-    margin-bottom: 20px;
+     margin-bottom: 20px;
  }
 
  .logos {
@@ -232,7 +232,6 @@
  }
 
  /* examples section */
-
  .examples-header {
      flex-direction: column;
      gap: 20px;
@@ -322,6 +321,7 @@
      justify-content: center;
      gap: 30px;
  }
+
  /* companies-section */
  .companies-section .container .small-bold-text .logos{
      margin-top: 30px;
