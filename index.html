@@ -23,7 +23,7 @@
         <a href="#" class="company-logo">
             <img src="./assets/asset 1.png" alt="company company-logo">
         </a>
-        <div class="nav-links">
+        <div class="nav-links ac" id="nav-links">
             <ul class="flex">
                 <li><a href="#" class="hover-link">Products</a></li>
                 <li><a href="#" class="hover-link">Customer</a></li>
@@ -33,10 +33,10 @@
                 <li><a href="#" class="hover-link primary-button">Sign up</a></li>
             </ul>
         </div>
-<a href="#" class="new-toggle hover-link">
-    <i class="fa-sharp fa-solid fa-bars"></i>
-</a>
-    </div>
+        <a href="#" class="new-toggle hover-link" id="nav-toggle">
+            <i class="fa-sharp fa-solid fa-bars"></i>
+        </a>
+        </div>
     </nav>
     <!-- header section -->
     <header>
@@ -146,7 +146,7 @@
 
     </section>
     <section class="big-feature-section">
-        <div class="container flex big-feature-container id="second-big-feature">
+        <div class="container flex big-feature-container" id=" second-big-feature">
             <div class="feature-img">
                 <img src="./assets/asset 21.png" alt="">
             </div>
@@ -193,7 +193,7 @@
                     <h3 class="card-text">Can users find important pages on my website?</h3>
                 </a>
 
-<a class="examples-card" href="#"
+                <a class="examples-card" href="#"
                     style="background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url('./assets/asset\ 38.jpeg');">
                     <div class="overlay"></div>
                     <h3 class="card-text">Is my website’s intended audience clear?</h3>
@@ -251,7 +251,7 @@
         </div>
     </footer>
     <div class="subfooter">
-        <div class="container flex sub-footer-container">
+        <div class="container flex stoggleButton ub-footer-container">
             <a href="#" class="hover-link">Privacy policy</a>
             <a href="#" class="hover-link">Terms & Condition</a>
             <a href="#" class="hover-link">Security Information</a>
@@ -260,6 +260,14 @@
         </div>
     </div>
     <script src="https://kit.fontawesome.com/628003722a.js" crossorigin="anonymous"></script>
+    <script>
+        const toggleButton = document.getElementById('nav-toggle');
+        const navLinks = document.getElementById('nav-links');
+
+        toggleButton.addEventListener('click',() =>{
+            navLinks.classList.toggle('active');
+        })
+    </script>
 </body>
 
 </html>
