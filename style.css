@@ -196,6 +196,7 @@
 
  .features-header {
      text-align: center;
+     margin-bottom: 40px;
  }
 
  .features-header h2 {
@@ -249,6 +250,7 @@ padding: 80px var(--padding-inline-section);
  .examples-header {
      flex-direction: column;
      gap: 20px;
+     text-align: center;
  }
 
  .examples-area {
@@ -265,6 +267,7 @@ padding: 80px var(--padding-inline-section);
      background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url('./assets/asset\ 36.jpeg');
      background-size: cover;
      transition: 0.2s ease-out;
+
  }
 
  .examples-card:hover {
@@ -295,6 +298,7 @@ padding: 80px var(--padding-inline-section);
      flex-direction: column;
      gap: 30px;
      color: white;
+     text-align: center;
  }
 
  .cta-section {
