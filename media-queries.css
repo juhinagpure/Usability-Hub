@@ -1,4 +1,4 @@
-/* @media screen and (max-width:991px) {
+@media screen and (max-width:991px) {
     h3 {
         font-size: 1.2rem;
     }
@@ -64,8 +64,7 @@
             min-width: calc(50% - 10px);
         }
 
-        .big-feature-section,
-        #second-big-feature {
+        .big-feature-section, #second-big-feature {
             flex-direction: column;
         }
 
@@ -109,4 +108,4 @@
         width: 100%;
     }
 
-} */
+}
