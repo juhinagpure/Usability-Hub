@@ -7,9 +7,11 @@
         display: block;
         margin-right: 20px;
     }
-.main-nav{
-    overflow: initial;
-}
+
+    .main-nav {
+        overflow: initial;
+    }
+
     .nav-links {
         position: absolute;
         background-color: white;
@@ -17,11 +19,13 @@
         top: 100%;
         width: 100%;
         padding-block: 20px;
-        transition:0.2s ease-in-out ;
+        transition: 0.2s ease-in-out;
     }
-    .nav-links.active{
+
+    .nav-links.active {
         left: 0;
     }
+
     .nav-links ul {
         flex-direction: column;
     }
@@ -40,10 +44,12 @@
         padding-block: 80px;
     }
 
-    @media screen and(max-width:767px) {
+
+    @media screen and (max-width:767px) {
         .primary-button {
             width: 100%;
         }
+    
 
         .header-section {
             flex-direction: column-reverse;
