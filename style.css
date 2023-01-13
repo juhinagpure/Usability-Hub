@@ -229,10 +229,6 @@
      padding: 30px var(--padding-inline-section);
  }
 
- /* #second-big-feature{
-    flex-direction: row-reverse;
- } */
-
  .big-feature-container {
      gap: 30px;
  }

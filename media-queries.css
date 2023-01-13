@@ -49,7 +49,7 @@
         .primary-button {
             width: 100%;
         }
-    
+
 
         .header-section {
             flex-direction: column-reverse;
@@ -64,7 +64,11 @@
             min-width: calc(50% - 10px);
         }
 
-        .big-feature-section, #second-big-feature {
+        .big-feature-container {
+            flex-direction: column;
+        }
+
+        #second-big-feature {
             flex-direction: column;
         }
 
