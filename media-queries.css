@@ -1,4 +1,4 @@
-@media screen and (max-width:991px) {
+/* @media screen and (max-width:991px) {
     h3 {
         font-size: 1.2rem;
     }
@@ -61,7 +61,7 @@
         }
 
         .features-card {
-            min-width: calc(50%-10px);
+            min-width: calc(50% - 10px);
         }
 
         .big-feature-section,
@@ -109,4 +109,4 @@
         width: 100%;
     }
 
-}
+} */
